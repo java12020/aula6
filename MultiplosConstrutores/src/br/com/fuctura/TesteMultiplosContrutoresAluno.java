@@ -2,7 +2,8 @@ package br.com.fuctura;
 
 public class TesteMultiplosContrutoresAluno {
 	public static void main(String[] args) {
-		Aluno a1 = new Aluno();
+		
+		Aluno a1 = new Aluno(); //cria um objeto, inicializa as variáveis com valor padrão
 		
 		Aluno a2 = new Aluno(20);
 		
